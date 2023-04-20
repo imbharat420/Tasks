@@ -1,0 +1,87 @@
+.Footer{
+    padding: 1rem;
+}
+
+.FooterLogoDiv{
+    padding: 10px;
+    width: 175px;
+    margin-bottom: 2rem;
+}
+.Footerlogo {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.Footerlogo > img {
+  width: 50px;
+}
+.Footerlogo > p {
+  font-weight: 700;
+  font-size: 1.9rem;
+}
+
+.foooterSocialMedia{
+    position: relative;
+    top: 2px;
+    right: -55px;
+  display: flex;
+  justify-content: space-between;
+}
+.foooterSocialMedia>*{
+    cursor: pointer;
+}
+.FooterParentdiv{
+    display: flex;
+}
+.links_div{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+.address_div{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footerHeading{
+    margin-bottom: 4px;
+}
+.links{
+    margin-bottom: 1.4rem;
+}
+.links>p{
+    padding-top: 5px;
+    cursor: pointer;
+}
+.paymentd{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+.PaymentImage{
+    width: 90%;
+    max-width: 500px;
+}
+.PaymentImage img{
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .FooterParentdiv{
+        flex-direction: column;
+    }
+    .links_div{
+        width: 100%;
+    }
+    .address_div{
+        width: 100%;
+        justify-content: left;
+    }
+    .PaymentImage{
+        width: 320px;
+    }
+}

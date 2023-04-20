@@ -1,0 +1,41 @@
+.Header{
+    height: 75px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+.Header_child{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+.logo_div{
+    /* width: 90px; */
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.logo_div > img{
+    /* width: 100%; */
+    height: 40px;
+    
+}
+.logo_div p{
+    font-weight: 600;
+    color: white;
+}
+.user_name{
+    color: white;
+}
+
+.user_name{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
