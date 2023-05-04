@@ -1,4 +1,5 @@
 id|Name|level|Parent ID|Child ID|
+--|----|------|--------|---------|
 1|shirt|0|1|[2,3]|  
 2|Big Shirt|1|1|[4,5,6]|
 3|red shirt|1|1|[7]|  
