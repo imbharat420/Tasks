@@ -1,9 +1,0 @@
-{
-  "extends": ["eslint-config-airbnb-base"],
-  "plugins": ["prettier"],
-  "parser": "babel-eslint",
-  "rules": {
-    "prettier/prettier": ["error"],
-    "no-console": "off"
-  }
-}
