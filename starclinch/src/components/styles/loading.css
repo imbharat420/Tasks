@@ -1,0 +1,20 @@
+.Loding{
+    /* max-width: 700px; */
+    width: 100%;
+background-color: #F8F9FF;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 90vh;
+flex-direction: column;
+padding: 1rem;
+}
+.Loding img{
+    width: 80%;
+    max-width: 700px;
+    /* margin: auto; */
+}
+.Loding p{
+    text-align: center;
+}
+

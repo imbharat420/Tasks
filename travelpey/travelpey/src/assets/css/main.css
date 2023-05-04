@@ -1,0 +1,1067 @@
+
+      
+
+        .container{
+            font-family: "Poppins";
+           
+        }
+        .call-screen{
+            margin-top: -5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 1rem;
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+            height:90vh;
+            width: 100%;
+           
+        }
+        .bg-theme{
+            background-color:#00CCCF;
+        }
+        .text-decoration-none{
+            text-decoration: none;
+    
+        }
+        .anchor-call2{
+            height:90vh;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-decoration:none;
+            
+            color: black;
+        }
+        .mobile-no{
+         border:2px solid yellow;
+         border-radius:10px;
+         padding:.5rem
+        }
+        .fa-xmark{
+            font-size: 20px;
+            color:  yellow !important;
+        }
+        .bottom-no{
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            width:100%;
+            height:100px;
+  
+            bottom:0%;
+                 
+        }
+        .bottom-support{
+            height: 100px;
+            width: 100%;
+        }
+        .bg-yellow{
+            background-color: yellow;
+        }
+      
+
+
+
+
+/* Flights Page css */
+/* heading section */
+.heading-row {
+  margin-left: 0.6vw !important;
+}
+.section-heading {
+  font-family: Bellota Text;
+  font-weight: 700;
+  letter-spacing: 0em;
+  color: #13595a;
+}
+.section-subheading {
+  font-size: large;
+  font-family: Bellota Text;
+  color: #13595a;
+  font-weight: 600;
+}
+
+/* Popular section Hotels page  */
+.popular-card-text {
+  width: 80%;
+  margin: 0 20px;
+  font-family: "Inter";
+  font-weight: 600;
+  color: rgb(234, 231, 231);
+}
+.popular-card-text h3 {
+  font-size: 16px;
+}
+
+/* global properties */
+.bg-center {
+  background-position: center;
+  background-size: cover;
+}
+.card1 {
+  background-image: url("../images/delhi_dubai.png");
+}
+.card2 {
+  background-image: url("../images/dilhi_syndhi.png");
+}
+.card3 {
+  background-image: url("../images/mum_bang.png");
+}
+.card4 {
+  background-image: url("../images/img5.jpg");
+}
+.card5 {
+  background-image: url("../images/img5.jpg");
+}
+.card6 {
+  background-image: url("../images/img6.jpg");
+}
+.card7 {
+  background-image: url("../images/img3.jpg");
+}
+.card8 {
+  background-image: url("../images/img4.jpg");
+}
+
+body {
+  /* font-family: 'Lora' !important; */
+  font-family: 'Poppins' !important;
+}
+.card-inner {
+  height: 100%;
+  width: 96%;
+  margin: auto;
+  border-radius: 7px;
+  background-size: cover;
+  background-position: center;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: flex-end !important;
+  align-items: flex-end !important;
+}
+
+.nav_section{
+  background: #00cccf !important;
+  position: sticky !important;
+  top: 0;
+  z-index: 2;
+}
+
+/* landing page */
+
+/* landing */
+
+.landing {
+  background: #00cccf;
+  padding-bottom: 2rem;
+  height: 85vh;
+}
+
+
+@media screen and (max-width: 768px) {
+  .landing {
+    padding-top: 50px;
+     height: unset;
+  }
+}
+  
+
+.buses-landing-img{
+  height: auto;
+  width: 40vw;
+}
+.hotels-landing-img{
+  height: auto;
+  width: 30vw;
+}
+.flights-landing-img{
+  height: auto;
+  width: 40vw;
+}
+.data-row {
+  display: flex;
+  margin-top: 2rem;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+}
+.item-landing {
+  height: auto;
+  /* width: 250px; */
+  margin-bottom: 10px;
+  background: aqua;
+  /* opacity: 0.5; */
+  border-radius: 24px;
+  display: flex;
+  align-items: center !important;
+  justify-content: space-around;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 15px;
+  color: #2e7e7f;
+  padding: 0.3rem 0.3rem;
+  z-index: 0;
+}
+.landing-heading {
+  font-family: "Bebas Neue", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 77px;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-top: 3rem;
+}
+.submenu {
+  font-family: "Inter", sans-serif;
+  display: flex;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5vw;
+  line-height: 29px;
+  margin-top: -0.5rem;
+  margin-left: -2rem;
+}
+.submenu li {
+  list-style-type: none;
+  margin-right: 3vw;
+}
+.content-data {
+  margin-top: -18px;
+}
+.form-check-input:checked {
+  background-color: #13595a !important;
+  border-color: #13595a !important;
+}
+.down-arrow {
+  height: 3rem;
+  width: 20%;
+  background: #00cccf;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.item-landing p {
+  width: 7rem;
+  height: 100%;
+  margin: 0;
+}
+.item-landing i {
+  /* width: 20%; */
+  font-size: 25px;
+}
+.icon {
+  margin-left: 1rem;
+}
+.form-check .form-check-input{
+  padding: 10px;
+}
+
+.form-select {
+  outline: none;
+  border: none !important;
+  /* width: 3rem; */
+  /* background-color: aqua ; */
+  box-shadow: none;
+  outline: none;
+}
+
+.datepicker {
+  border: none !important;
+  outline: none;
+  background-color: aqua;
+  width: 80%;
+}
+
+.form-select {
+  outline: none;
+  border: none !important;
+  /* width: 3rem; */
+  /* background-color: aqua !important; */
+}
+.form-select-sm {
+  border-radius: 1.25rem !important;
+}
+.form-select:active,
+.form-select:focus,
+.form-select.active {
+  outline: 0 !important;
+  -webkit-box-shadow: none;
+  box-shadow: none !important;
+  border: none !important;
+}
+/* navigation */
+.navbar {
+  /* height: 120px; */
+  width: 100%;
+  /* background-color: antiquewhite; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.logo {
+  margin-left: 5vw;
+  display: flex;
+  align-items: center;
+  width: auto;
+}
+.logo-txt {
+  font-family: "Bebas Neue", sans-serif;
+  color: #13595a;
+  transform: translateX(-13px);
+  font-size: 30px;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 768px) {
+  .logo-txt {
+    font-size: 20px;
+  }
+}
+.logo-img {
+  height: 3rem;
+  width: auto;
+  transform: translateY(-8px);
+}
+.links {
+  width: 70%;
+  display: flex;
+  align-items: center;
+}
+.links ul {
+  display: flex;
+  align-items: center;
+}
+.links ul li {
+  list-style-type: none;
+  margin-left: 1.6rem;
+}
+.nav-link {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  /* font-size: 15px; */
+  line-height: 18px;
+  color: #13595a;
+  font-size: 18px !important;
+  margin-right: 40px;
+}
+
+.nav-icon li {
+  font-family: "Inter";
+  color: #ffffff;
+}
+.landing-btn {
+  font-family: "Inter";
+  /* margin-left: 2rem; */
+  padding: 1rem 2rem !important;
+  border: none;
+  background-color: #ffd700;
+  border-radius: 16px;
+  color: #13595a !important;
+  font-weight: 600;
+  text-align: center;
+}
+.mid-icon {
+  font-size: 20px;
+  color: #ffffff;
+}
+.btn-row {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  justify-content: center;
+  /* margin-left: 10rem; */
+  width: 90%;
+}
+.btn-row .landing-btn {
+  width: 15rem;
+  height: 3rem;
+  font-size: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bars {
+  display: none;
+}
+
+/* international section hotels page */
+.inter-card-box {
+  background-color: black;
+  width: 100%;
+  height: 70vh;
+}
+.inter-col1 {
+  background-color: aliceblue;
+  height: 80%;
+  width: 200px;
+}
+.inter-col1 {
+  background-color: rgb(67, 139, 203);
+  height: 80%;
+  width: 200px;
+}
+.inter-col1 {
+  background-color: rgb(56, 64, 70);
+  height: 80%;
+  width: 200px;
+}
+#international-slide {
+  height: 70vh;
+  width: 70vw !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.card-box-int {
+  height: 65vh !important;
+}
+
+/* .col1{
+    width: 35vw !important;    
+}
+.col2,.col3{
+    width: 15.5vw !important;
+} */
+.card-inter {
+  border-radius: 7px;
+  background-size: cover;
+  background-position: center;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: flex-end !important;
+  align-items: flex-end !important;
+}
+.card-inter .inner-box {
+  height: 47%;
+  border-radius: 7px;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: flex-end !important;
+  align-items: flex-end !important;
+}
+
+.inter-card-text {
+  width: 80%;
+  margin: 0 20px;
+  font-family: "Inter";
+  font-weight: 600;
+}
+.inter-card-text h3 {
+  font-size: 20px;
+  color: #ffffff;
+}
+.inter-card-text p {
+  font-size: 15px;
+  color: #ffd700;
+}
+/* Adventures section hotel */
+.adv-content {
+  height: 50%;
+  width: 100%;
+  background-color: #fff;
+  color: #13595a;
+  font-family: "Inter";
+  padding: 15px;
+  overflow: hidden;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+.adv-content h2 {
+  /* margin-top: -.5rem; */
+  font-size: 20px;
+}
+.adv-content-row {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  font-size: 12px;
+}
+.adv-content-row i {
+  width: 15px;
+  margin-bottom: 8px;
+}
+.adv-content-row p {
+  /* margin-left: 10px; */
+  /* margin-top: 4px; */
+}
+.adv-btn {
+  color: #13595a;
+  font-weight: 700;
+  font-size: 15px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 4px solid yellow;
+  margin-left: 13px;
+}
+
+/* slick slider css */
+.slick-slide{
+  padding: 10px;
+}
+.card-box {
+  height: 60vh;
+  /* overflow: hidden; */
+  /* background-color: aqua; */
+  /* width: 15vw; */
+}
+.slick-arrow::before{
+  color: red;
+}
+.slick-prev, .slick-next{
+  background: #7eccf0 !important;
+  /* fill: red !important; */
+  border-radius: 50%;
+}
+.slider-container .slick-track{
+    /* height: 650px; */
+    /* overflow: hidden; */
+    /* margin: 20px; */
+}
+.slick-prev {
+  text-align: left;
+ 
+}
+
+.slick-next {
+  right: -50px;
+  text-align: right;
+}
+.card-slider {
+  /* height: 75vh; */
+  width: 70vw !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   background-color: #00CCCF !important;
+}
+.slick-arrow {
+  position: absolute;
+  top: 50%;
+  width: 40px;
+  height: 50px;
+  line-height: 50px;
+  margin-top: -25px;
+  border: none;
+  background: transparent;
+  color: #6cd3d4;
+  font-family: monospace;
+  font-size: 3rem;
+  z-index: 300;
+  outline: none;
+}
+
+/* trending */
+.trending-text {
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+.trending-text img {
+  width: 80%;
+  /* padding: 5px; */
+  height: auto;
+  border-radius: 7px;
+}
+
+/* testimonial */
+
+.testimonial-card {
+  height: 200px;
+  width: 500px;
+  color: #13595a;
+  display: flex;
+  justify-content: center;
+  font-family: "Inter";
+  align-items: center;
+  gap: 10px;
+}
+
+.testimonial-card img {
+  height: 100px;
+  width: auto;
+  border-radius: 50%;
+}
+
+.testimonial-card .quote {
+  height: 25px;
+  width: auto;
+}
+
+.testi-card-text p {
+  margin-top: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .testimonial-card {
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .testimonial-card img {
+    margin-bottom: 15px;
+  }
+}
+
+
+/* city image separator */
+.mahel{
+  margin-top: -7rem;
+  margin-bottom: -4rem;
+}
+.mahel img {
+  height: 30vw;
+  width: auto;
+}
+
+/* footer */
+
+.footer {
+  /* width: 100vw; */
+  /* height: 80vh; */
+  background: #00cccf;
+  overflow-x: hidden !important;
+  left: 0;
+  margin-left: 0;
+}
+.footer-main {
+  /* height: 60%; */
+  /* width: 100%; */
+  color: #13595a;
+  font-family: "Inter";
+  display: flex;
+  justify-content: space-around;
+}
+.footer-logo {
+  /* width: 100%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.div-links li {
+  list-style: none;
+  margin-bottom: 0.5rem;
+}
+.div-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 6vw !important;
+}
+.div-links h2 {
+  font-size: 21px;
+}
+.footer-social-icons {
+  font-size: 30px;
+  display: flex;
+  justify-content: space-around;
+  width: 220px;
+}
+.address {
+  width: 250px;
+  margin-top: 0.5rem;
+}
+.footer-contact {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 40px;
+}
+.footer-contact p {
+  margin-left: 1rem;
+}
+
+
+
+/* Hotels Page css */
+
+.hotel-inter{
+  height: 80vh;
+}
+
+.hotel-inter-row{
+  display: flex;
+  
+}
+.hotel-inter-col2{
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  width: 100%;
+}
+.hotel-inter-middle-col{
+  display: flex;
+  gap: 10px;
+ 
+}
+.hotel-inter-middle-col div,.hotel-inter-col2 div,.hotel-inter-col1,.hotel-inter-col3{
+  border-radius: 7px;
+}
+
+/* Broese by property */
+#card-slider-property {
+  height: 30vh;
+  width: 70vw !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-box-property {
+  height: 30vh;
+  /* background-color: aqua; */
+  /* width: 15vw; */
+}
+
+.card-inner-property {
+  height: 100%;
+  width: 96%;
+  margin: auto;
+  border-radius: 7px;
+  background-size: cover;
+  background-position: center;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: flex-end !important;
+  align-items: flex-end !important;
+}
+
+/* popular destionations */
+
+.pop-desti-row{
+  margin-left: 0.8vw !important;
+}
+.pop-desti-row img{
+  height: 50px;
+  width: auto;
+  border-radius: 7px;
+}
+.pop-desti-item{
+  display: flex;
+}
+.pop-desti-item-text{
+  margin-left: .4vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-family: 'Inter';
+  color: #2E7E7F;
+}
+.pop-desti-item-text h5{
+  line-height: 1.3rem;
+  margin-bottom: 0.2rem;
+}
+
+/* buses page */
+
+.top-bus-item{
+  height: 200px;
+  width: 23% !important;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.top-route-row{
+  width: 75vw !important;
+}
+.bus-route-cards{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+
+
+.footer i{
+margin-bottom: 1rem;
+}
+.item-landing-hotel-result{
+   width: 200px !important; 
+   color: rgb(255, 0, 0) !important;
+}
+.item-landing-hotel-result label{
+   color: #ff0000 !important;
+}
+.flights-input-fields input{
+  width: 150px;
+  background-color: #00CCCF;
+  outline: none;
+  border: none;
+  color: #000000 !important;
+  padding: .5rem 1rem .5rem 1rem;
+  border-radius: 1rem;
+}
+.flights-input-fields input::placeholder{
+  color: #13595A !important;
+}
+.input-fields{
+   background-color: #6CD3D4;
+   outline: none;
+}
+.flights-input-fields .row{
+   width: 95vw !important;
+}
+.check-flights-search{
+   height: 1rem;
+   width: 1rem;
+   margin-left: 0px;
+}
+.check-flights-search:checked{
+ background-color: #00cccf !important;
+ }
+.check-flights-search:checked{
+   background-color: #00CCCF !important;
+}
+.bg-light{
+   background-color: #e1e1e1 !important;
+}
+.form-check-label{
+   color: #2E7E7F;
+}
+.filter-box h5,.filter-box h2,.filter-box p{
+   color: #13595A;
+}
+.flight-list p{
+   color: #181f20 !important;
+   margin-bottom: 0px;
+}
+.bg-navy{
+   color: white;
+   background-color: #202E97;
+}
+.flight-card p{
+   color: #13595A !important; 
+}
+
+
+
+
+.review-card p {
+  /* height: 40vh; */
+  color: #2e7e7f;
+}
+
+.fa-clock,
+.fa-cart-flatbed-suitcase,
+.fa-suitcase-rolling {
+  color: #2e7e7f;
+}
+
+#dot1,
+#dot2,
+#dot3,
+#dot4 {
+  height: 40px;
+  width: 40px;
+}
+
+#plane {
+  transition: all 1s;
+  color: #2e7e7f;
+}
+
+#dot2{
+  margin-left: 40px;
+}
+
+.yellow {
+  background-color: #ffd700;
+}
+
+.refund-btn {
+  border: 2px solid #2e7e7f;
+  color: #2e7e7f;
+}
+
+.refund-btn:hover {
+  background-color: #2e7e7f;
+  color: #fff;
+}
+
+hr {
+  color: #2e7e7f;
+}
+
+.payment-card {
+  width: 15rem !important;
+}
+
+/* navigation */
+
+
+
+
+
+
+
+/* flights results*/
+
+* {
+  font-family: 'Inter', sans-serif;
+}
+
+.footer i {
+  margin-bottom: 1rem;
+}
+
+.item-landing-hotel-result {
+  width: 200px !important;
+  color: rgb(255, 0, 0) !important;
+}
+
+.item-landing-hotel-result label {
+  color: #ff0000 !important;
+}
+
+.flights-input-fields input {
+  width: 150px;
+  background-color: #00CCCF;
+  outline: none;
+  border: none;
+  color: #000000 !important;
+  padding: .5rem 1rem .5rem 1rem;
+  border-radius: 1rem;
+}
+
+.flights-input-fields input::placeholder {
+  color: #13595A !important;
+}
+
+.input-fields {
+  background-color: #6CD3D4;
+  outline: none;
+}
+
+.flights-input-fields .row {
+  width: 95vw !important;
+}
+
+.check-flights-search {
+  height: 1rem;
+  width: 1rem;
+  margin-left: 0px;
+}
+
+.check-flights-search:checked {
+  background-color: #00cccf !important;
+}
+
+.check-flights-search:checked {
+  background-color: #00CCCF !important;
+}
+
+.theme {
+  background-color: #00CCCF !important;
+}
+
+.bg {
+  background-color: #e1e1e1 !important;
+}
+
+.form-check-label {
+  color: #2E7E7F;
+}
+
+.filter-box h5,
+.filter-box h2,
+.filter-box p {
+  color: #13595A;
+}
+
+.bold-clr {
+  color: #13595A !important;
+}
+
+.flight-list p {
+  color: #181f20 !important;
+  margin-bottom: 0px;
+}
+
+.bg-navy {
+  color: white;
+  background-color: #202E97;
+}
+
+.flight-card p {
+  color: #13595A !important;
+}
+
+.btn {
+  outline: none;
+}
+
+
+#result {
+      position: absolute;
+      width: 100%;
+      max-width: 300px;
+      cursor: pointer;
+      overflow-y: auto;
+      max-height:200px;
+      box-sizing: border-box;
+      z-index: 1001;
+      margin-top: 230px;
+    }
+    #result2 {
+        position: absolute;
+      width: 100%;
+      max-width: 400px;
+      cursor: pointer;
+      overflow-y: auto;
+      max-height:200px;
+      box-sizing: border-box;
+      z-index: 1001;
+      margin-top: 230px;
+    }
+
+    #result1 {
+        position: absolute;
+      width: 100%;
+      max-width: 300px;
+      cursor: pointer;
+      overflow-y: auto;
+      max-height:200px;
+      box-sizing: border-box;
+      z-index: 1001;
+      margin-top: 160px;
+    }
+
+    #result3 {
+        position: absolute;
+      width: 100%;
+      max-width: 400px;
+      cursor: pointer;
+      overflow-y: auto;
+      max-height:200px;
+      box-sizing: border-box;
+      z-index: 1001;
+      margin-top: 160px;
+    }
+
+    .link-class:hover {
+      background-color: white;
+    }
+         

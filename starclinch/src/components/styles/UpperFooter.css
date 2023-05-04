@@ -1,0 +1,18 @@
+.UperFooter{
+    background-color: black;
+    padding: 1rem;
+}
+.UperFooter>*{
+    color: white;
+}
+.UperFooter>div{
+   padding-top: 1.7rem;
+   padding-bottom: 1.7rem;
+}
+.UperFooter>div>p{
+    text-align: center;
+    padding-top: 7px;
+}
+.pointer>p{
+    text-align: left !important;
+}
